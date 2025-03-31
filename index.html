@@ -1,110 +1,78 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f3ecde;;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Nakedar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="img1.jpg" alt="" class="profile-pic">
+            <div>
+                <h1>Sakshi Nakedar</h1>
+                <p>Bangalore, Karnataka, India</p>
+            </div>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-/* Header */
-header {
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: maroon;
-}
+    <section id="about">
+        <h2>About Me</h2>
+        <p class="left-align">Dynamic and results-driven professional with a unique blend of event planning expertise and Python programming skills. Proven track record of boosting event engagement and streamlining processes through innovation and leadership. Adept at collaborating in diverse teams, leveraging a strong computer science foundation to deliver impactful solutions. Exceptional communicator and meticulous organizer, dedicated to ensuring project success from concept to completion.</p>
+    </section>
 
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Handwritten Digit Recognition</h3>
+            <p class="left-align">Developed a model that recognizes handwritten digits with high accuracy and efficiency.</p>
+            <p class="left-align"><strong>Tools used:</strong> Python, OpenCV, scikit-learn</p>
+            <p class="left-align"><strong>Algorithms:</strong> Support Vector Machine (SVM), Convolutional Neural Network (CNN)</p>
+        </div>
+    </section>
 
-.profile-pic {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #ddd;
-}
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul class="left-align">
+            <li>Python (Numpy, Pandas, scikit-learn)</li>
+            <li>C Programming</li>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms in C++</li>
+            <li>Database Management System (MySQL)</li>
+            <li>Theoretical Foundations of Computer Science</li>
+            <li>Deep Learning</li>
+            <li>HTML & CSS</li>
+            <li>Tableau</li>
+        </ul>
+    </section>
 
-h1 {
-    font-size: 28px;
-    font-weight: bold;
-    margin: 0;
-}
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul class="left-align">
+            <li>Introduction to Programming Using Python - Great Learning</li>
+            <li>C Programming - Great Learning</li>
+            <li>include.her Bootcamp</li>
+        </ul>
+    </section>
 
-p {
-    margin: 5px 0;
-}
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="left-align">Email: <a href="mailto:sakshinakedar2003@gmail.com">sakshinakedar2003@gmail.com</a></p>
+        <p class="left-align">LinkedIn: <a href="https://www.linkedin.com/in/sakshi-nakedar-b8a4b72b6">Sakshi Nakedar</a></p>
+    </section>
 
-/* Navbar */
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    background-color: maroon;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 10px 12px;
-    transition: 0.3s;
-}
-
-nav ul li a:hover {
-    color: lightblue;
-}
-
-/* Sections */
-section {
-    max-width: 800px;
-    margin: 50px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: ;
-}
-
-.left-align {
-    text-align: left;
-    color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-}
-
-/* Skills and Certifications */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background: #f1f1f1;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-}
-/* Footer */
-footer {
-    background-color: maroon;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    margin-top: 20px;
-}
+    <footer>
+        <p>&copy; 2025 Sakshi Nakedar</p>
+    </footer>
+</body>
+</html>
